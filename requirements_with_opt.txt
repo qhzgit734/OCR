@@ -1,0 +1,46 @@
+# Here is the list of packages automatically derived by QPT
+# you can ignore the dependent packages in the main package and only care about the main package
+# For example, you need to install paddlepaddle and pillow, because paddlepaddle relies on pillow, so you only need to install paddlepaddle.
+# ---------------------------------------------------------------------
+# QPT Home:        https://github.com/GT-ZhangAcer/QPT
+# ---------------------------------------------------------------------
+# 
+# -------------Mainly depends on package analysis results--------------
+
+py_notifier==0.3.2
+cnocr==2.2
+pyside2==5.15.2.1
+torchvision==0.13.0
+
+# ----------------------Ignored dependent packages---------------------
+#wincertstore==0.2
+#qpt==1.0b4.dev5
+#pyinstaller==5.2
+#aiohttp==3.8.1
+
+# ----------------------Ignored sub dependent packages---------------------
+
+# -----Dependencies of py_notifier
+#win10toast==0.9
+
+# -----Dependencies of cnocr
+#cnstd>=1.2
+#tqdm
+#onnx
+#pillow>=5.3.0
+#click
+#onnxruntime
+#torch>=1.8.0
+#numpy
+#pytorch_lightning
+#torchvision>=0.9.0
+
+# -----Dependencies of pyside2
+#shiboken2==5.15.2.1
+
+# -----Dependencies of torchvision
+#typing_extensions
+#requests
+#torch==1.12.0
+#pillow!=8.3.*,>=5.3.0
+#numpy
